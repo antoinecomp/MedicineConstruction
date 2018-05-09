@@ -10,7 +10,7 @@ Documentation about the Nested Monte Carlo method can be found on the first page
 
 # How to launch the algorithms
 
-You can test the algorithm launching the scripts which will do the difference between the log and the expected solution which Jurisica stored in a text file.
+You can test the algorithm launching the scripts which will do the difference between the log and the expected solution which Jurisica stored in a text file. You may need to modify the scripts to launch the exercises you want to try.
 
 ## How to test Proof Number Search
 
@@ -22,6 +22,9 @@ To launch Nested Monte Carlo's algorithm launch `run_nmc_engine.sh` from your te
 
 ## Remarks
 
-It seems there is a problem as far as the `diff` command prints the whole solution text as far as the log from our own algorithm seems to be empty
+It seems there is a problem as far as the `diff` command prints the whole solution text as far as the log from our own algorithm seems to be empty as you may see in `out/rxndebug/` and the number of the exercise you tried
+An error message appear in the error file :
 
-
+```
+Error: Could not find or load main class caos.aaai.CaosNMCEngine
+```
